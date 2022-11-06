@@ -1,0 +1,18 @@
+<div class="mainContainer">
+    <form [formGroup]="perform" (ngSubmit)="onSubmit(perform)">
+    <div>
+        name:
+    </div>
+    <div>
+        <input formControlName="name" placeholder="enter name" type="text"/>
+    </div>
+    <div>
+        password:
+    </div>
+    <div>
+        <input formControlName="password" placeholder="enter password" type="password"/>
+    </div>
+
+    <button type="submit">submit</button>
+</form>
+</div>
